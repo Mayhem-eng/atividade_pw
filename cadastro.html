@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <style>
+
+        h4{ 
+            text-align: center;
+            font-size: 23px;
+            color: white;
+        }
+        #fundo{
+        
+            background-image: url('fundo2.jpg');
+        }
+
+        #topo{
+            color: rgb(252, 252, 252);
+            font-size: 35px;
+        }
+
+        #logar{
+            text-align: center;
+            font-size: 40px;
+        }
+
+        #fonte_especial{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .cor_fonte{
+            color: rgb(255, 253, 253);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+            
+        }
+    </style> 
+</head>
+<body id="fundo">
+    
+    <br>
+    <h1>
+        <span id="topo">Cadastre-se</span>
+    </h1>
+
+    <div>
+        <hr>
+    </div>
+    
+    <br>
+    <form>  
+        <div>
+            <span class="cor_fonte">Login:</span><br>
+
+            <input type="email" name="login">
+            <br>
+
+            <span class="cor_fonte">Senha:</span><br>
+
+            <input type="password" name="senha">
+            <br><br>
+        </div>
+
+        <div>
+            <div id="fonte_especial">
+                <span class="cor_fonte">Sexo</span><br>
+
+                <input type="radio" value="m">
+                <span class="cor_fonte">Masculino |</span>
+
+                <input type="radio" value="f">
+                <span class="cor_fonte">Feminino |</span>
+
+                <input type="radio" value="nb">
+                <span class="cor_fonte">Não Binário |</span>
+
+                <input type="radio" value="non">
+                <span class="cor_fonte">Prefiro não dizer</span>
+            </div>
+        </div>
+       
+        <br>
+        <div>
+            <span class="cor_fonte">Estado:</span><br>
+
+            <select name="estado">
+                <option value="ac">AC</option>
+                <option value="al">Al</option>
+                <option value="ap">AP</option>
+                <option value="am">AM</option>
+                <option value="ba">BA</option>
+                <option value="ce">CE</option>
+                <option value="es">ES</option>
+                <option value="go">GO</option>
+                <option value="ma">MA</option>
+                <option value="mt">MT</option>
+                <option value="ms">MS</option>
+                <option value="mg">MG</option>
+                <option value="pa">PA</option>
+                <option value="jp">JP</option>
+                <option value="pr">PR</option>
+                <option value="pe">PE</option>
+                <option value="pi">PI</option>
+                <option value="rr">RR</option>
+                <option value="ro">RO</option>
+                <option value="rj">RJ</option>
+                <option value="rn">RN</option>
+                <option value="rs">RS</option>
+                <option value="sc">SC</option>
+                <option value="sp">SP</option>
+                <option value="se">SE</option>
+                <option value="to">TO</option>
+
+            </select>
+
+        </div><br>
+        <div>
+            <hr>
+        </div>
+
+        <div>
+            <span class="cor_fonte">Interesses:</span>
+            <div>
+                <span style="font-size: 20px; color: rgb(252, 252, 252);">
+                    <input type="checkbox">
+                    Futebol<br>
+                    <input type="checkbox">
+                    Moda<br>
+                    <input type="checkbox">
+                    Culinária<br>
+                    <input type="checkbox">
+                    Tecnologia<br>
+                    <input type="checkbox">
+                    Games <br>
+                </span>
+            </div>
+        </div>
+
+        <div>
+            <hr>
+        </div>
+        <br>
+        <div>
+            <span class="cor_fonte">Observações finais:</span>
+            <br>
+            <textarea cols="30" row="40"></textarea>
+        </div>
+        <br>
+        <br>
+        <div id="logar">
+            <input type="submit" name=logar>
+        </div>
+
+    </form>
+    <br>
+    <div>
+        <hr>
+    </div>
+    <br>
+    <div>
+       <h4>Sem direitos autoriais</h4>
+    </div>
+
+   
+    
+</body>
+</html>
